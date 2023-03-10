@@ -1,27 +1,49 @@
 h1{
-    color:rgb(49, 243, 0);
-    border: 0,3rem groove black;
-    border-radius: 0,7rem;
+    color:rgb(170, 29, 106); font-size: 48px;
+    border: 0.3rem groove rgb(247, 0, 115);
+    border-radius: 0.7rem;
+    border-style: inset;
+    width: 50%;
 }
 
 h2{
-    color:rgb(88, 151, 202);
+    color: rgb(170, 29, 106); font-size: 32px;
+    border: 0.3rem groove rgb(247, 0, 115);
+    border-radius: 0.7rem;
+    border-style: inset;
+    width: 50%;
 }
 
 h3{
-    color:rgb(88, 202, 94);
+    color:rgb(170, 29, 106); font-size: 24px;
+    border: 0.3rem groove rgb(247, 0, 115);
+    border-radius: 0.7rem;
+    border-style: inset;
+    width: 50%;
 }
 
 h4{
-    color:rgb(202, 88, 88);
+    color:rgb(170, 29, 106); font-size: 24px;
+    border: 0.3rem groove rgb(247, 0, 115);
+    border-radius: 0.7rem;
+    border-style: inset;
+    width: 50%;
 }
 
 h5{
-    color:rgb(202, 88, 88);
+    color:rgb(170, 29, 106); font-size: 16px;
+    border: 0.3rem groove rgb(247, 0, 115);
+    border-radius: 0.7rem;
+    border-style: inset;
+    width: 50%;
 }
 
 h6{
-    color:rgb(202, 88, 88);
+    color: rgb(170, 29, 106); font-size: 16px;
+    border: 0.3rem groove rgb(247, 0, 115);
+    border-radius: 0.7rem;
+    border-style: inset;
+    width: 50%;
 }
 
 h1#page1{
@@ -29,7 +51,7 @@ h1#page1{
 }
 
 h1.page2{
-    color:blue;
+    color:rgb(58, 58, 146);
 }
 
 body ul li{
