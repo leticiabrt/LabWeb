@@ -1,5 +1,27 @@
 h1{
-    color:red;
+    color:rgb(49, 243, 0);
+    border: 0,3rem groove black;
+    border-radius: 0,7rem;
+}
+
+h2{
+    color:rgb(88, 151, 202);
+}
+
+h3{
+    color:rgb(88, 202, 94);
+}
+
+h4{
+    color:rgb(202, 88, 88);
+}
+
+h5{
+    color:rgb(202, 88, 88);
+}
+
+h6{
+    color:rgb(202, 88, 88);
 }
 
 h1#page1{
@@ -13,3 +35,5 @@ h1.page2{
 body ul li{
     color:pink;
 }
+
+
