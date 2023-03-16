@@ -1,61 +1,121 @@
-h1{
-    color:rgb(170, 29, 106); font-size: 48px;
+h1 {
+    color: rgb(170, 29, 106);
+    font-size: 48px;
     border: 0.3rem groove rgb(247, 0, 115);
     border-radius: 0.7rem;
     border-style: inset;
     width: 50%;
 }
 
-h2{
-    color: rgb(170, 29, 106); font-size: 32px;
-    border: 0.3rem groove rgb(247, 0, 115);
-    border-radius: 0.7rem;
-    border-style: inset;
-    width: 50%;
+h2,
+h3,
+h4,
+h5,
+h6 {
+    display: none;
 }
 
-h3{
-    color:rgb(170, 29, 106); font-size: 24px;
-    border: 0.3rem groove rgb(247, 0, 115);
-    border-radius: 0.7rem;
-    border-style: inset;
-    width: 50%;
+body ul li {
+    color: rgb(230, 59, 87);
 }
 
-h4{
-    color:rgb(170, 29, 106); font-size: 24px;
-    border: 0.3rem groove rgb(247, 0, 115);
-    border-radius: 0.7rem;
-    border-style: inset;
-    width: 50%;
+p {
+    text-decoration: underline rgb(201, 6, 120) double 0.01rem;
+    text-indent: 1rem;
 }
 
-h5{
-    color:rgb(170, 29, 106); font-size: 16px;
-    border: 0.3rem groove rgb(247, 0, 115);
-    border-radius: 0.7rem;
-    border-style: inset;
-    width: 50%;
+p.maiusculo {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    word-spacing: 0.02rem;
+    color: rgb(221, 146, 240);
+    font: italic small-caps bold 2rem monospace;
+    text-shadow: 20rem 20rem 30rem rgb(105, 220, 255), 1rem rgb(105, 220, 255), 2rem rgb(105, 220, 255);
 }
 
-h6{
-    color: rgb(170, 29, 106); font-size: 16px;
-    border: 0.3rem groove rgb(247, 0, 115);
-    border-radius: 0.7rem;
-    border-style: inset;
-    width: 50%;
+a:link {
+    text-decoration: none;
+    color: darkgoldenrod;
 }
 
-h1#page1{
-    color:blueviolet;
+a:visited,
+a:active {
+    text-decoration: underline;
+    color: brown;
 }
 
-h1.page2{
-    color:rgb(58, 58, 146);
+a:hover {
+    color: rgb(0, 247, 255);
 }
 
-body ul li{
-    color:pink;
+footer {
+    clear: both;
+    background: #cea0f8 url("../img/dog-png.webp") no-repeat 0.5rem bottom;
+    background-size: 2.3rem;
+    height: 3rem;
 }
 
+div#whats {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: inline;
+    z-index: 2rem;
+    background-color: rgb(74, 255, 74);
+    color: white;
+    border: 0.2rem solid darkgreen;
+    padding: 0.2rem;
+    font-size: 2rem;
+}
 
+h1#page1 {
+    color: blueviolet;
+    border: 0.3rem dashed rgb(230, 59, 87);
+}
+
+img {
+    width: 30rem;
+}
+
+ul {
+    list-style-type: square;
+}
+
+h1.page2 {
+    color: rgb(58, 58, 146);
+    border: 0.3rem dashed rgb(230, 59, 87);
+    border-radius: 5%;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+section img {
+    float: right;
+}
+
+.espaco {
+    height: 10px;
+}
+
+main.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+
+main.flexbox {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main.flexbox article {
+    background-color: lightcoral;
+    margin: 1rem;
+    padding: 2rem;
+}
