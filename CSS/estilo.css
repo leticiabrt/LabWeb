@@ -32,7 +32,7 @@ p.maiusculo {
     word-spacing: 0.02rem;
     color: rgb(221, 146, 240);
     font: italic small-caps bold 2rem monospace;
-    text-shadow: 20rem 20rem 30rem rgb(105, 220, 255), 1rem rgb(105, 220, 255), 2rem rgb(105, 220, 255);
+    text-shadow: 2rem 2rem 3rem rgb(105, 220, 255), 0 0 1rem rgb(105, 220, 255), 0 0 2rem rgb(105, 220, 255);
 }
 
 a:link {
